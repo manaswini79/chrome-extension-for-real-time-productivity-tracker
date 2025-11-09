@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Personal Productivity Tracker",
+  "description": "Set daily goals, monitor time spent on websites, and visualize productivity trends.",
+  "version": "1.0",
+  "action": {
+    "default_title": "Productivity Tracker",
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "128": "icon-128.png"
+  },
+  "permissions": [
+    "tabs",
+    "alarms",
+    "storage",
+    "idle"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "minimum_chrome_version": "98"
+}

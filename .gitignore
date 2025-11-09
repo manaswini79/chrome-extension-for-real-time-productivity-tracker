@@ -1,0 +1,21 @@
+# Node modules
+node_modules/
+
+# Vite build output (optional: you can choose to commit 'dist/' if you want)
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+dist/

@@ -15,16 +15,23 @@ git clone https://github.com/your-username/your-repo-name.git
 cd chrome-extension-for-real-time-productivity-tracker
 ```
 2. Install dependencies:
-   - npm install
+   ```bash
+   npm install
+   ```
 
 4. Run in development mode (for testing UI):
-   - npm run dev
+   ```bash
+   npm run dev
+   ```
  
-5. Build Extension:
-   - npm run build
+6. Build Extension:
+   ```bash
+    npm run build
+   ```
+     
     This generates a dist/ folder containing index.html, manifest.json, background.js, icon-128.png, and compiled JS/CSS assets.
   
-6. Load in Chrome:
+8. Load in Chrome:
    - Open Chrome → chrome://extensions/
    - Enable Developer mode
    - Click Load unpacked → select the dist/ folder
